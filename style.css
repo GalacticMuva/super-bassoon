@@ -1,0 +1,23 @@
+
+.flex-gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+/* button uniformity*/
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    display: block;
+    flex-grow: 1; 
+}
+.footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+   position: fixed;
+}
